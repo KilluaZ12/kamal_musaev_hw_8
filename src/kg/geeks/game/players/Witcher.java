@@ -1,4 +1,4 @@
-package kg.geeks.game.general;
+package kg.geeks.game.players;
 
 import kg.geeks.game.players.Boss;
 import kg.geeks.game.players.Hero;
