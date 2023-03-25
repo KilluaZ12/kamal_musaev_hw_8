@@ -6,5 +6,6 @@ public enum SuperAbility {
     BOOST,
     SAVE_DAMAGE_AND_REVERT,
     SACRIFICE_LIFE,
-    HERO_DEFENCE
+    HERO_DEFENCE,
+    SKIP_STUNNED
 }

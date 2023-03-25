@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29d47f19-7a9e-45f1-ba05-5ba5df8708a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kamal_musaev_hw_8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/general/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/general/RPG_Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Berserk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/GameEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Golem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/HavingSuperAbility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Magic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Medic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/SuperAbility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Witcher.java" afterDir="false" />
+    <list default="true" id="29d47f19-7a9e-45f1-ba05-5ba5df8708a4" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Thor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kg/geeks/game/general/RPG_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kg/geeks/game/general/RPG_Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kg/geeks/game/players/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kg/geeks/game/players/Golem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/Golem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kg/geeks/game/players/SuperAbility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kg/geeks/game/players/SuperAbility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +42,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/kamal/IdeaProjects/kamal_musaev_hw_8"
   }
 }]]></component>
   <component name="RunManager">
@@ -88,6 +75,18 @@
       <option name="presentableId" value="Default" />
       <updated>1679640655848</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1679732822562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679732822562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>

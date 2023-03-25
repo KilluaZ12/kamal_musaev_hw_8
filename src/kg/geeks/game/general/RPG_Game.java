@@ -16,8 +16,9 @@ public class RPG_Game {
         Berserk berserk = new Berserk(290,15, "Takashi");
         Medic assistant = new Medic(300, 5, 5, "Strange");
         Witcher witcher = new Witcher(450, "Gerald");
-        Golem golem = new Golem(1000, 10);
-        Hero[] heroes = {warrior, doc, magic, berserk, assistant, witcher, golem};
+        Golem golem = new Golem(700, 10);
+        Thor thor = new Thor(200, 20);
+        Hero[] heroes = {warrior, doc, magic, berserk, assistant, witcher, golem, thor};
 
         printStatistics(boss, heroes);
         while (!isGameFinished(boss, heroes)) {
@@ -36,7 +37,10 @@ public class RPG_Game {
     private static void playRound(Boss boss, Hero[] heroes){
         roundNumber++;
         boss.chooseDefence(heroes);
-        boss.attack(heroes);
+        if(!boss.isCheckThor()){
+            boss.attack(heroes);
+        }
+
         for (int i = 0; i < heroes.length; i++) {
             if(boss.getDefence() != heroes[i].getAbility() &&
             heroes[i].getHealth() > 0 && boss.getHealth() > 0) {
